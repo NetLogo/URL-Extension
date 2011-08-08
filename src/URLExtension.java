@@ -1,3 +1,5 @@
+package org.nlogo.extensions.url;
+
 import java.awt.image.BufferedImage ;
 import java.io.BufferedInputStream ;
 import java.io.ByteArrayInputStream ;
