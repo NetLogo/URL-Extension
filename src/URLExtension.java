@@ -48,8 +48,8 @@ public class URLExtension extends DefaultClassManager {
 		public Syntax getSyntax()
 		{
 			return Syntax.reporterSyntax
-				( new int[] { Syntax.TYPE_STRING } ,
-				  Syntax.TYPE_STRING ) ;
+				( new int[] { Syntax.StringType() } ,
+				  Syntax.StringType() ) ;
 		}
 		@Override
 		public String getAgentClassString()
@@ -87,8 +87,8 @@ public class URLExtension extends DefaultClassManager {
 		public Syntax getSyntax()
 		{
 			return Syntax.reporterSyntax
-				( new int[] { Syntax.TYPE_STRING } ,
-				  Syntax.TYPE_WILDCARD ) ;
+				( new int[] { Syntax.StringType() } ,
+				  Syntax.WildcardType() ) ;
 		}
 		@Override
 		public String getAgentClassString()
@@ -118,8 +118,8 @@ public class URLExtension extends DefaultClassManager {
 		public Syntax getSyntax()
 		{
 			return Syntax.reporterSyntax
-				( new int[] { Syntax.TYPE_STRING , Syntax.TYPE_LIST } ,
-						Syntax.TYPE_WILDCARD) ;
+				( new int[] { Syntax.StringType() , Syntax.ListType() } ,
+						Syntax.WildcardType()) ;
 		}
 		@Override
 		public String getAgentClassString()
