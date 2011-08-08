@@ -18,7 +18,7 @@ Use the NETLOGO environment variable to tell the Makefile which NetLogo.jar to c
 
     NETLOGO=/Applications/NetLogo\\\ 5.0 make
 
-If compilation succeeds, `shell.jar` will be created.
+If compilation succeeds, `url.jar` will be created.
 
 ## Terms of Use
 
