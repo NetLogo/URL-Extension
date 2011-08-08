@@ -11,7 +11,7 @@ SRCS=$(wildcard src/*.java)
 
 url.jar: $(SRCS) manifest.txt Makefile
 	mkdir -p classes
-	$(JAVAC) -g -deprecation -Xlint:all -Xlint:-serial -Xlint:-path -encoding us-ascii -source 1.5 -target 1.5 -classpath $(NETLOGO)/NetLogoLite.jar -d classes $(SRCS)
+	$(JAVAC) -g -deprecation -Xlint:all -Xlint:-serial -Xlint:-path -encoding us-ascii -source 1.5 -target 1.5 -classpath web.jar:$(NETLOGO)/NetLogoLite.jar -d classes $(SRCS)
 	jar cmf manifest.txt url.jar -C classes .
 
 url.zip: url.jar
