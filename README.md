@@ -1,10 +1,8 @@
-CONTENTS
-========
+## Contents
 
 This package contains a NetLogo extension for working with URLs.
 
-TERMS OF USE
-============
+## Terms of use
 
 Contents of the "url.jar" file are (C) 2010 Forrest Stonedahl.
 The "web.jar" file is a third party library, the license for 
@@ -25,5 +23,3 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
