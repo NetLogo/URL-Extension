@@ -27,3 +27,7 @@ The URL extension was written by Forrest Stonedahl.
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 The NetLogo URL extension is in the public domain.  To the extent possible under law, Forrest Stonedahl and Uri Wilensky have waived all copyright and related or neighboring rights.
+
+### web.jar
+
+The "web.jar" file is a third party library, the license for which is found in the file `myjavatools_license.txt`.
