@@ -2,13 +2,11 @@
 
 This is a NetLogo extension for working with URLs.
 
-## Credits
-
-The URL extension was written by Forrest Stonedahl.
-
 ## Using
 
 [Download](https://github.com/NetLogo/URL-Extension/downloads) and unzip to the extensions folder inside your NetLogo program folder.
+
+The 5.0beta4 download will probably work with 5.0. If not, let us know.
 
 For more information about NetLogo extensions in general, see the NetLogo User Manual.
 
@@ -19,6 +17,10 @@ Use the NETLOGO environment variable to tell the Makefile which NetLogo.jar to c
     NETLOGO=/Applications/NetLogo\\\ 5.0 make
 
 If compilation succeeds, `url.jar` will be created.
+
+## Credits
+
+The URL extension was written by Forrest Stonedahl.
 
 ## Terms of Use
 
