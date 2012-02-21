@@ -8,7 +8,7 @@ The URL extension was written by Forrest Stonedahl.
 
 ## Using
 
-Download and unzip to the extensions folder inside your NetLogo program folder.
+[Download](https://github.com/NetLogo/URL-Extension/downloads) and unzip to the extensions folder inside your NetLogo program folder.
 
 For more information about NetLogo extensions in general, see the NetLogo User Manual.
 
